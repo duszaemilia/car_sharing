@@ -376,4 +376,52 @@ html, body {
     border-color: var(--primary);
     box-shadow: 0 .0625rem .375rem var(--primary-light);
 }
+.container {
+    margin: 0 auto;
+    width: 1088px;
+}
+.page-footer {
+    background-color: var(--gray-8);
+    height:14.5625rem ;
+    /*border-bottom: 0.125rem solid var(--gray-5);*/
+}
 
+.page-footer-nav{
+    display: flex;
+    margin-top: 39px;
+}
+.page-footer-nav-col {
+    width: 339px;
+    display: flex;
+
+}
+
+.page-footer-nav-list {
+    width: 100%;
+    max-width: var(--max-width);
+    padding-inline: 1rem;
+    box-sizing: border-box;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.page-footer-nav-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--white);
+    font-size: 0.875rem;
+    line-height: 1.5153rem;
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: bold;
+  }
+.page-footer-nav-list a:hover {
+       color: var(--primary);
+}
+
+.page-footer-copyright {
+    color: var(--gray-1);
+    font-size: 0.75rem;
+    align-self: end;
+}
